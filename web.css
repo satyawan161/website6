@@ -1,0 +1,1091 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.nav {
+    display: flex;
+}
+
+nav h1 {
+    color: #fff;
+    padding: 12px 16px;
+    font: 15px Verdana, sans-serif;
+    background-color: #009688;
+    cursor: pointer;
+}
+
+nav h1:hover {
+    color: #000;
+    padding: 8px 16px;
+    background-color: #c9c9c9;
+}
+
+.j4a {
+    display: flex;
+}
+
+.j4a a {
+    text-decoration: none;
+    font: 15px Verdana, sans-serif;
+    padding: 12px 16px;
+    color: #fff;
+}
+
+.j4a a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn {
+    padding-top: 13px;
+}
+
+.btn a {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 3px 12px 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btun i {
+    padding-top: 0px;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.btun:hover {
+    background-color: rgb(202, 202, 202);
+    color: black;
+}
+
+
+
+.btun {
+    box-shadow: 1px 1px 4px black;
+    position: absolute;
+    display: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 11px;
+}
+
+.btun a {
+    display: block;
+    padding: 13px 118px 10px 12px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btn:hover .btun {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+
+.btun a {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.drop:hover~.a3 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: #000000;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+    margin: 0 10px 0 0;
+}
+
+.btun #drop {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav label {
+    color: #fff;
+    display: none;
+}
+
+nav input {
+    display: none;
+}
+
+#itag {
+    color: #fff;
+    margin: 0 10px;
+}
+
+#search {
+    display: none;
+}
+
+#itag {
+    color: white;
+    font-size: 15px;
+    padding: 11px;
+}
+
+#itag:hover {
+    background-color: rgb(33, 145, 130);
+}
+
+/* ------------------------------- pic style ------------------*/
+
+.pic {
+    background-image: url(sailboat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500Px;
+    border: rgb(0, 0, 0) 1px solid;
+}
+
+.learn {
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 440px;
+    border: none;
+    margin-left: 15px;
+    padding: 10px 15px;
+}
+
+.learn:hover {
+    background-color: rgb(7, 151, 151);
+}
+
+.picture {
+    background-color: white;
+    width: 100%;
+}
+
+.picture h1 {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.picture p {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+}
+
+.detail {
+    width: 25%;
+    padding-top: 45px;
+    padding-bottom: 36px;
+}
+
+.photo {
+    background-image: url(avatar.jpg);
+    margin: auto;
+    border-radius: 100px;
+    background-size: cover;
+    width: 145px;
+    height: 145px;
+}
+
+.photo:hover {
+    opacity: 0.6;
+}
+
+.detail h1 {
+    padding-top: 20px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.detail h3 {
+    padding-top: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-bottom: 50px;
+}
+
+.ourwork {
+    width: 100%;
+    display: flex;
+    background-color: rgb(56, 56, 56);
+    padding: 60px 8px;
+    position: relative;
+}
+
+.work {
+    width: 25%;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding-left: 10px;
+}
+
+.work h1 {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.work p {
+    padding-top: 21px;
+    padding-right: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15.9px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.customer {
+    width: 25%;
+    padding: 0px 8px 0px 10px;
+}
+
+.customer1 {
+    background-color: white;
+    color: black;
+}
+
+.customer1 img {
+    background-size: cover;
+    width: 100%;
+}
+
+.customer1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 16px;
+}
+
+.customer1 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 1px 0px 9px 16px;
+}
+
+.customer1 h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 4px 0px 16px 16px;
+}
+
+.plus {
+    border-radius: 50%;
+    padding: 9px 18px;
+    height: 50px;
+    background-color: rgb(6, 100, 96);
+    position: absolute;
+    right: 20px;
+    bottom: -22px;
+}
+
+.plus .circle {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.plus:hover {
+    background-color: rgb(158, 158, 158);
+    color: black;
+}
+
+.plus:hover .circle {
+    color: black;
+}
+
+.pricing {
+    width: 100%;
+}
+
+.pricing h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
+    padding-top: 80px;
+}
+
+.pricing p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.bpp {
+    width: 100%;
+    display: flex;
+    padding-top: 35px;
+}
+
+.bpppermonth {
+    width: 33.3%;
+    padding: 0px 6px 70px 15px;
+}
+
+.basic {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+}
+
+.basicinput {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    border: 0.1px rgb(204, 204, 204) solid;
+    padding: 20px 9px;
+    text-align: center;
+}
+
+.basicinput h4 {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.basicinput i {
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+.basicinput h1 {
+    display: inline;
+    font-size: 30px;
+}
+
+.basicinput h2 {
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding: 14px 0px 0px 0px;
+    color: rgb(117, 117, 117);
+}
+
+.basicinput button {
+    padding: 14px 35px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(19, 161, 142);
+    color: white;
+}
+
+.basicinput button i {
+    padding: 0px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: rgb(19, 161, 142);
+}
+
+.bpppermonth2:hover {
+    box-shadow: 0px 5px 8px;
+}
+
+.basicinput button:hover {
+    background-color: rgb(180, 180, 180);
+    color: black;
+}
+
+.basicinput button:hover i {
+    background-color: rgb(207, 207, 207);
+    color: black;
+}
+
+.contactus {
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    justify-content: space-between;
+    display: flex;
+    padding-right: 30px;
+}
+
+.address {
+    width: 35%;
+}
+
+.address h1 {
+    padding: 100px 0px 35px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-decoration: underline rgb(8, 119, 104) 6px;
+}
+
+.address h2 {
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.address p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 20px 0px 10px 15px;
+}
+
+.address h4 {
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.form {
+    width: 60%;
+    margin: 70px 0px;
+    background-color: white;
+    box-shadow: 0px 0.1px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 35px 20px 20px 15px;
+}
+
+form input {
+    width: 96%;
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px rgb(206, 206, 206) solid;
+    margin-bottom: 20px;
+}
+
+.sideway {
+    display: flex;
+}
+
+form .ok {
+    border-radius: 2px;
+    width: 25px;
+    height: 25px;
+}
+
+form .p2 {
+    padding: 8px;
+}
+
+form .ok:hover {
+    background-color: rgb(22, 71, 126);
+}
+
+.last {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.side {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    filter: grayscale(50%);
+    width: 100%;
+}
+
+.followus {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+.followus h1 {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 100;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+.facebook {
+    background-color: rgb(8, 119, 104);
+    color: white;
+    width: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 5px;
+}
+
+.twitter {
+    background-color: rgb(8, 119, 104);
+    color: white;
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.insta {
+    background-color: rgb(8, 119, 104);
+    color: white;
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.google {
+    background-color: rgb(8, 119, 104);
+    color: white;
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.linkedin {
+    background-color: rgb(8, 119, 104);
+    color: white;
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+}
+
+.facebook:hover {
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+
+.twitter:hover {
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+
+.google:hover {
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+
+.insta:hover {
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+
+.linkedin:hover {
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+
+.followus h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+
+.followus h2 a {
+    color: white;
+}
+
+/* --------------------------------media  600------------------------------------------- */
+
+@media only screen and (min-device-width:0px) and (max-device-width:630px) {
+
+
+    nav {
+        z-index: 999;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .j4a {
+        display: none;
+    }
+
+    #search {
+        display: block;
+
+    }
+
+    #itag {
+        display: none;
+    }
+
+    nav label {
+        color: #fff;
+        display: block;
+        padding: 10.5px 12px;
+        height: 100%;
+    }
+
+    #inp:checked~.j4a {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        width: 100%;
+        background-color: #000;
+    }
+
+    label:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+
+    /* ------------------------------- pic style ------------------*/
+
+    .pic {
+        height: 300Px;
+    }
+    
+    .learn {
+        margin-top: 240px;
+    }
+
+    .profile {
+        width: 100%;
+        display: block;
+    }
+
+    .detail {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 10px
+    }
+
+    .photo:hover {
+        opacity: 0.6;
+    }
+
+    .detail h1 {
+        padding-top: 10px;
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .detail h3 {
+        padding-top: 5px;
+        letter-spacing: 0.5px;
+        font-size: 15px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding-bottom: 15px;
+    }
+
+    .ourwork {
+        width: 100%;
+        display: block;
+        background-color: rgb(56, 56, 56);
+        padding: 30px 8px;
+        position: relative;
+    }
+
+    .work {
+        width: 100%;
+        background-color: rgb(56, 56, 56);
+        color: white;
+        padding-left: 10px;
+    }
+
+    .work h1 {
+        padding-top: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+
+    }
+
+    .work p {
+        padding: 12px 12px 25px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        text-align: justify;
+    }
+
+    .customer {
+        width: 100%;
+        padding: 0px 8px 15px 10px;
+    }
+
+    .customer1 img {
+        background-size: cover;
+        width: 100%;
+    }
+
+    .customer1 h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding: 16px;
+    }
+
+    .customer1 h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding: 1px 0px 9px 16px;
+    }
+
+    .customer1 h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        padding: 4px 0px 16px 16px;
+    }
+
+
+
+    .pricing {
+        width: 100%;
+
+    }
+
+    .pricing h1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 28px;
+        padding-top: 50px;
+    }
+
+    .pricing p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .bpp {
+        width: 100%;
+        display: block;
+        padding-top: 35px;
+    }
+
+    .bpppermonth {
+        width: 100%;
+        padding: 0px 15px 45px 15px;
+    }
+
+    .basic {
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 35px;
+    }
+
+    .basicinput {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 16px;
+        border: 0.1px rgb(204, 204, 204) solid;
+        padding: 20px 9px;
+        text-align: center;
+    }
+
+    .basicinput h4 {
+        display: inline;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .basicinput i {
+        padding-top: 10px;
+        font-size: 35px;
+    }
+
+    .basicinput h1 {
+        display: inline;
+        font-size: 30px;
+    }
+
+    .basicinput h2 {
+        font-size: 16px;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        padding: 14px 0px 0px 0px;
+        color: rgb(117, 117, 117);
+    }
+
+    .basicinput button {
+        padding: 14px 35px;
+        font-size: 16px;
+        border: none;
+        background-color: rgb(19, 161, 142);
+        color: white;
+    }
+
+    .basicinput button i {
+        padding: 0px;
+        font-size: 16px;
+        font-weight: bolder;
+        background-color: rgb(19, 161, 142);
+
+    }
+
+    .bpppermonth2:hover {
+        box-shadow: 0px 5px 8px;
+    }
+
+    .basicinput button:hover {
+        background-color: rgb(180, 180, 180);
+        color: black;
+    }
+
+    .basicinput button:hover i {
+        background-color: rgb(207, 207, 207);
+        color: black;
+    }
+
+    .contactus {
+        width: 100%;
+        background-color: rgb(230, 230, 230);
+        justify-content: space-between;
+        display: block;
+        padding-right: 30px;
+        padding-bottom: 1px;
+    }
+
+    .address {
+        width: 100%;
+    }
+
+    .address h1 {
+        padding: 50px 0px 20px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        text-decoration: underline rgb(8, 119, 104) 6px;
+    }
+
+    .address h2 {
+        padding-left: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+    }
+
+    .address p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding: 20px 0px 10px 15px;
+    }
+
+    .address h4 {
+        padding-left: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+    }
+
+    .form {
+        width: 100%;
+        margin: 40px 15px;
+        background-color: white;
+        box-shadow: 0px 0.1px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        padding: 35px 20px 20px 15px;
+    }
+
+    form input {
+        width: 96%;
+        padding: 10px 0px;
+        border: none;
+        border-bottom: 1px rgb(206, 206, 206) solid;
+        margin-bottom: 10px;
+    }
+
+    .sideway {
+        display: flex;
+    }
+
+    form .ok {
+        border-radius: 2px;
+        width: 25px;
+        height: 25px;
+
+    }
+
+    form .p2 {
+        padding: 8px;
+    }
+
+    form .ok:hover {
+        background-color: rgb(22, 71, 126);
+    }
+
+    .last {
+        padding: 10px 20px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+
+    }
+
+
+    .side {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img {
+        filter: grayscale(50%);
+        width: 100%;
+    }
+
+    .followus {
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px;
+    }
+
+    .followus h1 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 100;
+
+    }
+
+    .app {
+        display: flex;
+        justify-content: center;
+        padding: 20px 40px;
+
+    }
+
+    .facebook {
+        background-color: rgb(8, 119, 104);
+        color: white;
+        width: 40px;
+        text-align: center;
+        padding-top: 10px;
+        margin-right: 5px;
+    }
+
+    .twitter {
+        background-color: rgb(8, 119, 104);
+        color: white;
+        padding: 10px;
+        width: 40px;
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    .insta {
+        background-color: rgb(8, 119, 104);
+        color: white;
+        padding: 10px;
+        width: 40px;
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    .google {
+        background-color: rgb(8, 119, 104);
+        color: white;
+        padding: 10px;
+        width: 40px;
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    .linkedin {
+        background-color: rgb(8, 119, 104);
+        color: white;
+        padding: 10px;
+        width: 40px;
+        text-align: center;
+    }
+
+    .facebook:hover {
+        background-color: rgb(206, 206, 206);
+        color: black;
+    }
+
+    .twitter:hover {
+        background-color: rgb(206, 206, 206);
+        color: black;
+    }
+
+    .google:hover {
+        background-color: rgb(206, 206, 206);
+        color: black;
+    }
+
+    .insta:hover {
+        background-color: rgb(206, 206, 206);
+        color: black;
+    }
+
+    .linkedin:hover {
+        background-color: rgb(206, 206, 206);
+        color: black;
+    }
+
+    .followus h2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .followus h2 a {
+        color: white;
+    }
+
+}
